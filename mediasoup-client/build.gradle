@@ -145,9 +145,10 @@ publishing {
     }
 }
 
-signing {
+    // TODO: Sign artifacts when publishing.
+/*signing {
     sign javaDocReleaseJar
     sign sourceReleaseJar
     sign publishing.publications.aar
-}
+}*/
 }
